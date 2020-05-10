@@ -1,17 +1,24 @@
 'use strict'
 
-const pattern = /(<!---\s*<%\s*)([\w.]+)(\s*--->\n)(.*)(\n?<!---\s*)([\w.]+)(\s*%>\s*--->)/gis
+module.exports = (content, data) => {
+  if (typeof content !== 'string') {
+    throw new TypeError(`1st argument 'content' must be a string, got '${typeof content}'`)
+  }
 
-module.exports = (string, data) =>
-  string.replace(
-    pattern,
-    (fullMatch, openA, key, openB, content, closeA, _, closeB) => {
+  if (Object.prototype.toString.call(data) !== '[object Object]') {
+    throw new TypeError(`2nd argument 'data' must be a plain Object, got '${typeof data}'`)
+  }
+
+  return content.replace(
+    /<!---\s*<%\s*([\w-.]+)\s*--->\n(.*?)\n?<!---\s*[\w-.]+\s*%>\s*--->/gsi,
+    (fullMatch, key, content) => {
       if (key in data) {
         content = data[key]
       } else {
         return fullMatch
       }
 
-      return openA + key + openB + content + closeA + key + closeB
+      return `<!--- <% ${key} --->\n${content}\n<!--- ${key} %> --->`
     }
   )
+}
