@@ -1,5 +1,15 @@
 'use strict'
 
+/**
+ * Processes intradoc templates of a content.
+ *
+ * @private
+ *
+ * @param {string} content - The content to process.
+ * @param {Object} data    - The data as a plain Object to use for the intradoc templates.
+ *
+ * @returns {string} The processed content.
+ */
 module.exports = (content, data) => {
   if (typeof content !== 'string') {
     throw new TypeError(`1st argument 'content' must be a string, got '${typeof content}'`)
