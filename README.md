@@ -1,6 +1,6 @@
 <!-- Logo -->
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/zengulp/intradoc-template-replacer/assets/header.svg" alt="@zengulp/intradoc-template-replacer logo" />
+  <img src="https://cdn.jsdelivr.net/gh/zengulp/intradoc-replacer/assets/header.svg" alt="@zengulp/intradoc-replacer logo" />
 </p>
 
 <!-- Branded divider -->
@@ -9,15 +9,15 @@
 <!-- Badges - 1st row -->
 <p align="center">
   <!-- NPM badge -->
-  <a href="https://www.npmjs.com/package/@zengulp/intradoc-template-replacer"><img src="https://img.shields.io/npm/v/@zengulp/intradoc-template-replacer?color=brightgreen&style=flat-square" alt="release-badge"></a>
+  <a href="https://www.npmjs.com/package/@zengulp/intradoc-replacer"><img src="https://img.shields.io/npm/v/@zengulp/intradoc-replacer?color=brightgreen&style=flat-square" alt="release-badge"></a>
   <!-- CI badge -->
-  <a href="https://github.com/zengulp/intradoc-template-replacer/actions?query=workflow%3Aci"><img src="https://github.com/zengulp/intradoc-template-replacer/workflows/ci/badge.svg?style=flat-square" alt="ci-badge"></a>
+  <a href="https://github.com/zengulp/intradoc-replacer/actions?query=workflow%3Aci"><img src="https://github.com/zengulp/intradoc-replacer/workflows/ci/badge.svg?style=flat-square" alt="ci-badge"></a>
   <!-- Coverage badge -->
-  <a href="https://codecov.io/gh/zengulp/intradoc-template-replacer"><img src="https://img.shields.io/codecov/c/github/zengulp/intradoc-template-replacer?style=flat-square" alt="coverage-badge"></a>
+  <a href="https://codecov.io/gh/zengulp/intradoc-replacer"><img src="https://img.shields.io/codecov/c/github/zengulp/intradoc-replacer?style=flat-square" alt="coverage-badge"></a>
   <!-- Dependency badge -->
-  <a href="https://libraries.io/github/zengulp/intradoc-template-replacer"><img src="https://img.shields.io/badge/dependabot-enabled-brightgreen.svg?style=flat-square" alt="dependency-badge"></a>
+  <a href="https://libraries.io/github/zengulp/intradoc-replacer"><img src="https://img.shields.io/badge/dependabot-enabled-brightgreen.svg?style=flat-square" alt="dependency-badge"></a>
   <!-- Documentation badge -->
-  <a href="https://github.com/zengulp/intradoc-template-replacer/blob/master/doc/API.md"><img src="https://inch-ci.org/github/zengulp/intradoc-template-replacer.svg?branch=master&style=flat-square" alt="documentation-badge"></a>
+  <a href="https://github.com/zengulp/intradoc-replacer/blob/master/doc/API.md"><img src="https://inch-ci.org/github/zengulp/intradoc-replacer.svg?branch=master&style=flat-square" alt="documentation-badge"></a>
 </p>
 
 <!-- Badges - 2nd row -->
@@ -29,9 +29,9 @@
   <!-- Release workflow badge -->
   <a href="https://semantic-release.gitbook.io/semantic-release"><img src="https://img.shields.io/badge/release-semantic--release-e10079.svg?style=flat-square" alt="release-workflow-badge"></a>
   <!-- License badge -->
-  <a href="https://github.com/zengulp/intradoc-template-replacer/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square" alt="license-badge"></a>
+  <a href="https://github.com/zengulp/intradoc-replacer/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square" alt="license-badge"></a>
   <!-- Contribution badge -->
-  <a href="https://github.com/zengulp/intradoc-template-replacer/blob/master/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="contribution-badge"></a>
+  <a href="https://github.com/zengulp/intradoc-replacer/blob/master/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="contribution-badge"></a>
 </p>
 
 ---
@@ -108,13 +108,13 @@
 - **NPM:**
 
   ```bash
-  npm install @zengulp/intradoc-template-replacer --save-dev
+  npm install @zengulp/intradoc-replacer --save-dev
   ```
 
 - **Yarn:**
 
   ```bash
-  yarn add @zengulp/intradoc-template-replacer --dev
+  yarn add @zengulp/intradoc-replacer --dev
   ```
 
 ## :coffee: Usage
@@ -160,7 +160,7 @@ In your Gulp script (e.g.: **`gulpfile.js`**):
 
 ```javascript
 const gulp = require('gulp')
-const replacer = require('@zengulp/intradoc-template-replacer')
+const replacer = require('@zengulp/intradoc-replacer')
 
 gulp.task('build:readme', async () => {
   gulp
@@ -224,5 +224,5 @@ Find more **@zengulp** packages on [NPM][url-npm] and [GitHub][url-github].
   [url-website]:     https://zengulp.github.io
   [url-github]:      https://github.com/zengulp
   [url-npm]:         https://www.npmjs.com/search?q=keywords:zengulp
-  [url-contrib-doc]: https://github.com/zengulp/intradoc-template-replacer/blob/master/.github/CONTRIBUTING.md
-  [url-license-doc]: https://github.com/zengulp/intradoc-template-replacer/blob/master/LICENSE.md
+  [url-contrib-doc]: https://github.com/zengulp/intradoc-replacer/blob/master/.github/CONTRIBUTING.md
+  [url-license-doc]: https://github.com/zengulp/intradoc-replacer/blob/master/LICENSE.md

@@ -1,16 +1,16 @@
 {
-  "name": "@zengulp/intradoc-template-replacer",
+  "name": "@zengulp/intradoc-replacer",
   "version": "0.0.0-development",
   "description": "",
   "author": "Richard King <richrdkng@gmail.com> (www.richrdkng.com)",
   "license": "ISC",
-  "homepage": "https://github.com/zengulp/intradoc-template-replacer#readme",
+  "homepage": "https://github.com/zengulp/intradoc-replacer#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zengulp/intradoc-template-replacer.git"
+    "url": "https://github.com/zengulp/intradoc-replacer.git"
   },
   "bugs": {
-    "url": "https://github.com/zengulp/intradoc-template-replacer/issues"
+    "url": "https://github.com/zengulp/intradoc-replacer/issues"
   },
   "main": "index.js",
   "engines": {
