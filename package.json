@@ -23,7 +23,9 @@
     "build": "npm run gulp -- build",
     "gulp": "gulp --gulpfile scripts/index.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gulp-tap": "^2.0.0"
+  },
   "devDependencies": {
     "@richrdkng/dmd-plugin-simple-nodejs-project": "^1.0.0",
     "@semantic-release/changelog": "^5.0.1",
@@ -33,7 +35,6 @@
     "codecov": "^3.6.5",
     "gulp": "^4.0.2",
     "gulp-debug": "^4.0.0",
-    "gulp-tap": "^2.0.0",
     "jest": "^26.0.1",
     "jsdoc-to-markdown": "^5.0.3",
     "semantic-release": "^17.0.7",
