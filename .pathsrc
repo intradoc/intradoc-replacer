@@ -1,0 +1,6 @@
+{
+  "@replacer": "src/__internal/replacer.js",
+  "@fixtures": "tests/fixtures",
+  "@before": "@fixtures/before",
+  "@after": "@fixtures/after"
+}
